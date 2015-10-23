@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="229.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controll.MainControll">
+   <children>
+      <Button fx:id="button" layoutY="31.0" mnemonicParsing="false" onAction="#SprawdzRzadPierwszy" text="Sprawdz" />
+      <TextField fx:id="field" layoutX="61.0" layoutY="31.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field1" layoutX="114.0" layoutY="31.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field2" layoutX="114.0" layoutY="56.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field3" layoutX="167.0" layoutY="56.0" prefHeight="25.0" prefWidth="53.0" style="-fx-border-style: solid;" />
+      <TextField fx:id="field4" layoutX="114.0" layoutY="81.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field5" layoutX="167.0" layoutY="81.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field6" layoutX="220.0" layoutY="81.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field7" layoutX="61.0" layoutY="106.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field8" layoutX="167.0" layoutY="106.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="field9" layoutX="220.0" layoutY="106.0" prefHeight="25.0" prefWidth="53.0" />
+      <Button fx:id="button1" defaultButton="true" layoutY="56.0" mnemonicParsing="false" onAction="#SprawdzRzadDrugi" text="Sprawdz" />
+      <Button fx:id="label" layoutY="81.0" mnemonicParsing="false" onAction="#SprawdzRzadCzwarty" text="Sprawdz" />
+      <Button fx:id="button3" defaultButton="true" layoutY="106.0" mnemonicParsing="false" onAction="#SprawdzRzadTrzeci" style="-fx-background-color: red;" text="Sprawdz" />
+      <Label layoutX="180.0" layoutY="35.0" text="B" />
+      <Label layoutX="243.0" layoutY="35.0" prefHeight="17.0" prefWidth="7.0" text="A" />
+      <Label layoutX="88.0" layoutY="60.0" prefHeight="17.0" prefWidth="7.0" text="B" />
+      <Label layoutX="88.0" layoutY="85.0" prefHeight="17.0" prefWidth="7.0" text="C" />
+      <Label layoutX="137.0" layoutY="110.0" prefHeight="17.0" prefWidth="0.0" text="A" />
+      <Label layoutX="239.0" layoutY="60.0" prefHeight="17.0" prefWidth="7.0" text="C" />
+      <Label layoutX="277.0" layoutY="35.0" prefHeight="17.0" prefWidth="39.0" />
+      <Label layoutX="277.0" layoutY="35.0" prefHeight="17.0" prefWidth="39.0" />
+      <TextField fx:id="T1" layoutX="285.0" layoutY="31.0" prefHeight="17.0" prefWidth="87.0" />
+      <TextField fx:id="T2" layoutX="285.0" layoutY="56.0" prefHeight="17.0" prefWidth="87.0" style="-fx-background-color: blue;" />
+      <TextField fx:id="T3" layoutX="285.0" layoutY="81.0" prefHeight="17.0" prefWidth="87.0" style="-fx-border-color: orange;" />
+      <TextField fx:id="T4" layoutX="285.0" layoutY="106.0" prefHeight="17.0" prefWidth="87.0" style="-fx-background-color: red;" />
+   </children>
+</Pane>
